@@ -33,13 +33,29 @@ nav {
 
 /* styl dla linkow w menu */
 nav a {
-    color: white;
+    color: #faf7ea;
     text-decoration: none;
     margin-right: 15px;
+    position: relative;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    background-color: #faf7ea;
+    transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%;
 }
 
 h1 {
-    color: #444;
+    color: #293994;
     font-family: Greek-Freak;
     font-size: 5em; 
     text-align: center;
