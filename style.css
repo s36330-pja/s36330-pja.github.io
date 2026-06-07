@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Greek-Freak';
+    src: url('Greek-Freak.ttf') format('truetype');
+}
+/* to jest selektor uniwersalny, resetuje marginesy zeby przegladarka nie psula ukladu */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #faf7ea;
+    color: #111d5f;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+nav {
+    background-color: #293994;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* styl dla linkow w menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+h1 {
+    color: #444;
+    font-family: Greek-Freak;
+    font-size: 5em; 
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.wyroznienie {
+    font-style: italic;
+    color: #8b0000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 0.8em; 
+    text-align: center;
+}
