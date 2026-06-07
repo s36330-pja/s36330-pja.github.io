@@ -22,6 +22,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     flex: 1;
+    padding: 20px;
 }
 
 nav {
@@ -53,6 +54,22 @@ p {
 .wyroznienie {
     font-style: italic;
     color: #db21af;
+}
+
+.media {
+    display: flex;
+}
+
+.zdj {
+    flex-basis: 40%;
+}
+
+.tekst {
+    flex-basis: 60%;
+}
+
+.prawa {
+    flex-direction: row-reverse;
 }
 
 img {
