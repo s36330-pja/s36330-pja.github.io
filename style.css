@@ -39,7 +39,7 @@ nav a {
     position: relative;
 }
 
-a::after {
+nav a::after {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -50,7 +50,7 @@ a::after {
     transition: width 0.3s ease;
 }
 
-a:hover::after {
+nav a:hover::after {
     width: 100%;
 }
 
